@@ -4,10 +4,10 @@ import pytest
 
 
 @pytest.fixture
-def login():
-    print("登录")
-    yield
-    print("登出")
+def login():        # 调用时直接在函数或者方法中的参数中添加fixture名称(login)
+    print("登录")    # 执行用例前会打印登录
+    yield           # 可以返回一个值： yield 123供后面的的用例使用
+    print("登出")   # 执行用例后会打印登出
 
 
 @pytest.fixture
