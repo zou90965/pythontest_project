@@ -1,0 +1,34 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "tests.ui_test.testcase",
+    "children" : [ {
+      "name" : "test_ui",
+      "children" : [ {
+        "name" : "TestUI",
+        "children" : [ {
+          "name" : "test_open_baidu",
+          "uid" : "dc0d1f1407d480b5",
+          "parentUid" : "7365b4dd3fcebf4d47acc74334b73419",
+          "status" : "passed",
+          "time" : {
+            "start" : 1770799947142,
+            "stop" : 1770799972405,
+            "duration" : 25263
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "7365b4dd3fcebf4d47acc74334b73419"
+      } ],
+      "uid" : "0fb6bb9514f734d2e350f122376bbc1f"
+    } ],
+    "uid" : "48ed4385dff78f9a78c04a14cc3eb168"
+  } ]
+}

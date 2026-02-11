@@ -3,7 +3,7 @@ import pytest
 from tests.common.api_client import read_yaml_file, send_request
 
 # 获取yaml文件中的数据
-data = read_yaml_file("D:\\tools\pycharm\pythontest_project\\tests\data\\testa_data.yaml")
+data = read_yaml_file("/tests/data/testa_data.yaml")
 print(data)
 
 data1 = data["test_cases"]

@@ -1,6 +1,0 @@
-请求接口url：https://jsonplaceholder.typicode.com/posts
-请求接口方法：POST
-请求接口headers：{'Content-Type': 'application/json'}
-请求参数 :{'title': 'foo', 'body': 'bar', 'userId': 1}
-响应状态码: 201
-响应数据: {'title': 'foo', 'body': 'bar', 'userId': 1, 'id': 101}
