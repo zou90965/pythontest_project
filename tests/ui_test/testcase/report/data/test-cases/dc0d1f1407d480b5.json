@@ -1,0 +1,109 @@
+{
+  "uid" : "dc0d1f1407d480b5",
+  "name" : "test_open_baidu",
+  "fullName" : "tests.ui_test.testcase.test_ui.TestUI#test_open_baidu",
+  "historyId" : "4ef025507bf59ac3f7e5e5aabb31155d",
+  "time" : {
+    "start" : 1770799947142,
+    "stop" : 1770799972405,
+    "duration" : 25263
+  },
+  "description" : "测试用例：打开百度网页",
+  "descriptionHtml" : "<p>测试用例：打开百度网页</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "firefox_browser",
+    "time" : {
+      "start" : 1770799927759,
+      "stop" : 1770799947141,
+      "duration" : 19382
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "测试用例：打开百度网页",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e6143c5b093074d9",
+      "name" : "stdout",
+      "source" : "e6143c5b093074d9.txt",
+      "type" : "text/plain",
+      "size" : 293
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "firefox_browser::0",
+    "time" : {
+      "start" : 1770799972407,
+      "stop" : 1770799978576,
+      "duration" : 6169
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.ui_test.testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_ui"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUI"
+  }, {
+    "name" : "host",
+    "value" : "anan"
+  }, {
+    "name" : "thread",
+    "value" : "3676-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.ui_test.testcase.test_ui"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dc0d1f1407d480b5.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,30 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "anan",
+    "children" : [ {
+      "name" : "3676-MainThread",
+      "children" : [ {
+        "name" : "test_open_baidu",
+        "uid" : "dc0d1f1407d480b5",
+        "parentUid" : "6e655cb67c48149f7da778e458608601",
+        "status" : "passed",
+        "time" : {
+          "start" : 1770799947142,
+          "stop" : 1770799972405,
+          "duration" : 25263
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6e655cb67c48149f7da778e458608601"
+    } ],
+    "uid" : "ad6168b7058a11030ffb4e830db27bfd"
+  } ]
+}

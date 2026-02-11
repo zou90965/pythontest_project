@@ -1,0 +1,26 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests.ui_test.testcase.test_ui",
+    "children" : [ {
+      "name" : "test_open_baidu",
+      "uid" : "dc0d1f1407d480b5",
+      "parentUid" : "505fc56bde76887d2f5e8ed8fec6af69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1770799947142,
+        "stop" : 1770799972405,
+        "duration" : 25263
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.ui_test.testcase.test_ui"
+  } ]
+}

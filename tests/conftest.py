@@ -3,6 +3,10 @@
 import pytest
 import subprocess
 import os
+import pytest
+from selenium import webdriver
+from webdriver_manager.firefox import GeckoDriverManager
+from selenium.webdriver.firefox.service import Service
 
 
 @pytest.fixture
@@ -15,6 +19,27 @@ def login():  # 调用时直接在函数或者方法中的参数中添加fixture
 @pytest.fixture
 def sample_data():
     return {"name": "test", "value": 123}
+
+
+@pytest.fixture(scope="function")
+def firefox_browser():
+    """初始化 WebDriver 并自动下载匹配的驱动"""
+    # 使用 webdriver-manager 自动下载并管理 Firefox 驱动
+    service = Service(GeckoDriverManager().install())
+
+    # 配置 Firefox 选项（可选）
+    # options = Options()
+    # options.add_argument("--headless")  # 无头模式运行（可选）
+
+    # 启动 Firefox 浏览器
+    # self.driver = webdriver.Firefox(service=Service(), options=options)
+    # self.driver.implicitly_wait(10)  # 隐式等待 10 秒
+
+    driver = webdriver.Firefox(service=service)
+    # driver.implicitly_wait(10) # 隐式等待 10 秒
+
+    yield driver  # 将 driver 传递给测试用例
+    driver.quit()  # 测试结束后关闭浏览器
 
 
 def pytest_sessionfinish(session, exitstatus):

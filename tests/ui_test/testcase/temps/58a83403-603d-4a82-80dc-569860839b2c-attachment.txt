@@ -1,0 +1,4 @@
+当前 URL: https://www.baidu.com/
+页面标题: 百度一下，你就知道
+当前所有窗口句柄: ['1a5a035b-bbc7-4f2c-b7ff-aa29e2143269', '07c8b59b-ebdf-4abd-9be7-5a0a8c0aadc4']
+当前 URL: https://chat.baidu.com/search?extParams=%7B%22enter_type%22%3A%22home_doodle%22%7D&isShowHello=1
